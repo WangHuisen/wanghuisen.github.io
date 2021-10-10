@@ -1,0 +1,79 @@
+.sectionOneImg {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  transform: translate(50%, -50%);
+  transform: scale(1.5);
+}
+
+.mb-5 {
+  width: 30rem;
+}
+
+.md-3 {
+  width: 30rem;
+}
+
+.mb-3:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 100px;
+  content: "";
+  background: #fff;
+}
+
+.videoBackground {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.3);
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.videoMask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,.4);
+  z-index: 5;
+}
+
+  .test-1::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width : 5px;  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+  }
+  .test-1::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 5px;
+  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background   : #535353;
+  }
+  .test-1::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background   : #ffffff;
+  }
+
+  #success > div.container > div > div.col-lg-5.pr-md-5.pr-sm-0 > h2::before {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 2px;
+    width: 50px;
+    content: "";
+    background: #1d82ff;
+  }
