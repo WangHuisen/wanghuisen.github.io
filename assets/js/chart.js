@@ -1496,7 +1496,7 @@ function hometown() {
       {
         text: '中国女足国家队球员家乡统计',
         subtext: "数据来源：新浪体育",
-        top: '15%',
+        top: '5%',
         left: 'center',
         textStyle: {
           fontSize: 20,
